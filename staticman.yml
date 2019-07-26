@@ -1,0 +1,21 @@
+comments:
+  # (*) REQUIRED
+  allowedFields: ["name", "email", "url", "message","msg","replyto"]
+  branch: "master"
+  filename: "{fields.replyto}entry{@timestamp}"
+  path: "_data/comments/{options.slug}"
+    
+  # (*) OPTIONAL?
+  commitMessage: "Add Staticman comment from {fields.name} at {fields.url}"
+  format: "yaml"
+  allowedOrigins: ["github.io"]
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "timestamp-seconds"
+  moderation: true
+  name: "Joe's GithHub Blog"
+  requiredFields: ["name", "email", "msg"]
+  transforms:
+    email: md5
