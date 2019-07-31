@@ -1,6 +1,6 @@
 comments:
   # (*) REQUIRED
-  allowedFields: ["name", "email", "url", "message","msg","replyto"]
+  allowedFields: ["name", "email", "url", "message", "replyto"]
   branch: "master"
   filename: "{fields.replyto}entry{@timestamp}"
   path: "_data/comments/{options.slug}"
@@ -16,6 +16,6 @@ comments:
         format: "timestamp-seconds"
   moderation: true
   name: "Joe's GithHub Blog"
-  requiredFields: ["name", "email", "msg"]
+  requiredFields: ["name", "email", "message"]
   transforms:
     email: md5
