@@ -1,6 +1,6 @@
 comments:
   # (*) REQUIRED
-  allowedFields: ["name", "email", "url", "message", "replyto"]
+  allowedFields: ["name", "email", "url", "message", "replyto", "codeword"]
   branch: "master"
   filename: "{fields.replyto}entry{@timestamp}"
   path: "_data/comments/{options.slug}"
@@ -16,6 +16,6 @@ comments:
         format: "timestamp-seconds"
   moderation: true
   name: "JoeHx Blog"
-  requiredFields: ["name", "email", "message"]
+  requiredFields: ["name", "email", "message", "codeword"]
   transforms:
     email: md5
