@@ -8,14 +8,14 @@ comments:
   # (*) OPTIONAL?
   commitMessage: "Add Staticman comment from {fields.name} at {fields.url}"
   format: "yaml"
-  allowedOrigins: ["github.io"]
+  allowedOrigins: ["joehxblog.com"]
   generatedFields:
     date:
       type: date
       options:
         format: "timestamp-seconds"
   moderation: true
-  name: "Joe's GithHub Blog"
+  name: "JoeHx Blog"
   requiredFields: ["name", "email", "message"]
   transforms:
     email: md5
