@@ -1,0 +1,10 @@
+_id: d94b5e60-05ca-11eb-8b8c-7791cdfacfe1
+codeword: super-secret
+message: >-
+  The built-in Preference class has a method to receive clicks, onClick, but no
+  method to receive long clicks. In my current project, I actually have a need
+  for this, and found a way to implement it.
+name: Androidena
+email: a551cb4d0bb5591a6d9acec2b2a0f005
+url: 'https://androidena.com'
+date: 1601765435
