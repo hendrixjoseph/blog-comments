@@ -9,7 +9,7 @@ comments:
   commitMessage: "Add Staticman comment from {fields.name} at {fields.url}"
   format: "yaml"
   allowedOrigins: ["joehxblog.com"]
-  bannedDomains: ["https://cutt.us/freeass", "https://bit.ly"]
+  bannedDomains: ["https://24crypto.de", "https://cutt.us/freeass", "https://bit.ly"]
   generatedFields:
     date:
       type: date
